@@ -1,0 +1,39 @@
+---
+title: "Mentors"
+description: |
+  A cross-DAAC mentor community creating & teaching resources to help researchers migrate workflows to the cloud
+format:
+  html:
+    self-contained: false
+    toc: true
+    toc-depth: 3
+---
+
+# Mapa de Zonificación
+
+```{r, echo=FALSE}
+#library(leaflet)
+
+# Crear el mapa y asegurarse de que ocupe el 100% del ancho y alto de la ventana
+# mapa <- leaflet() %>%
+#  addTiles() %>%
+#  addMarkers(lng = -72.146143, lat = -13.463749, popup = "PDU - ANTA") #%>%
+#  setView(lng = -72.146143, lat = -13.463749, zoom = 10) %>%
+#  htmlwidgets::onRender("function(el, x) { this.invalidateSize(); }")
+# 
+# mapa %>%
+#  addProviderTiles(
+#    providers$Esri.WorldImagery,
+#    options = providerTileOptions(opacity = 0.5)
+#  ) %>%
+#  addProviderTiles(providers$CartoDB.VoyagerOnlyLabels)
+```
+
+```{r echo=FALSE}
+shop <- sf::read_sf("shp/ZONIF_PAUL_27092024.shp")
+shp <- shop |>  dplyr::select(SUB_ZON)
+mapview::mapview(shp, legend = FALSE, color = "transparent")
+
+
+```
+
