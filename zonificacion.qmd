@@ -1,7 +1,6 @@
 ---
-title: "Mentors"
+title: "Zonificación"
 description: |
-  A cross-DAAC mentor community creating & teaching resources to help researchers migrate workflows to the cloud
 format:
   html:
     self-contained: false
