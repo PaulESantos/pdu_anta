@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 0806afab-d844-46a3-8080-9b09934727d2
+      url: https://pduanta.netlify.app/

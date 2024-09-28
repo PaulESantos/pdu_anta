@@ -11,6 +11,20 @@ format:
 
 # Mapa de Zonificación
 
+La zonificación es un instrumento normativo que regula el uso del suelo urbano en función de los objetivos y metas establecidos en este documento. Esta herramienta responde a los lineamientos y políticas definidos en el modelo de desarrollo urbano.
+
+La clasificación y subclasificación de las zonas de uso del suelo para el PDU se basa en el Artículo 117 del D.S. 012-2022-MVCS, el cual define los tipos de zonificación. Estos criterios se adaptan a las dinámicas de la ciudad de Anta, considerando la demanda de uso del suelo, las actividades existentes en el área urbana, las proyecciones de crecimiento poblacional, la necesidad de vivienda, equipamientos, y la aptitud del suelo.
+
+Objeto de la zonificación (D.S. 012-2022-VIVIENDA, Art. 115):
+La zonificación tiene por objeto regular el uso y ocupación del suelo, con relación al derecho de propiedad predial. Se concreta a través de:
+
+- Plano de Zonificación u otros medios de representación gráfica.
+
+- Parámetros urbanísticos y edificatorios definidos en el Reglamento de Zonificación.
+
+- Índice de Usos para la ubicación de actividades urbanas.
+
+La propuesta de zonificación contenida en los instrumentos de planificación urbana debe fomentar los usos mixtos, considerando la complejidad y las características de la ciudad o centro poblado. Además, la asignación del tipo de zonificación tiene en cuenta que la infraestructura urbana sea accesible y suficiente, y que la zona cuente con el equipamiento urbano necesario en educación, salud y recreación, de acuerdo con su tipo.
 ```{r, echo=FALSE}
 #library(leaflet)
 
