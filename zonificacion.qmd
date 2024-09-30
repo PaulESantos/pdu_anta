@@ -24,6 +24,7 @@ La zonificación tiene por objeto regular el uso y ocupación del suelo, con rel
 - Índice de Usos para la ubicación de actividades urbanas.
 
 La propuesta de zonificación contenida en los instrumentos de planificación urbana debe fomentar los usos mixtos, considerando la complejidad y las características de la ciudad o centro poblado. Además, la asignación del tipo de zonificación tiene en cuenta que la infraestructura urbana sea accesible y suficiente, y que la zona cuente con el equipamiento urbano necesario en educación, salud y recreación, de acuerdo con su tipo.
+
 ```{r, echo=FALSE}
 #library(leaflet)
 
@@ -42,11 +43,18 @@ La propuesta de zonificación contenida en los instrumentos de planificación ur
 #  addProviderTiles(providers$CartoDB.VoyagerOnlyLabels)
 ```
 
-```{r echo=FALSE}
-shop <- sf::read_sf("shp/ZONIF_PAUL_27092024.shp")
-shp <- shop |>  dplyr::select(SUB_ZON)
-mapview::mapview(shp, legend = FALSE, color = "transparent")
+```{r echo=FALSE, warning=FALSE, message=FALSE}
 
+#shop <- sf::read_sf("shp/ZONIF_PAUL_27092024.shp")
+#shp <- shop |>  dplyr::select(SUB_ZON)
+#mapview::mapview(shp, legend = FALSE, color = "transparent")
+library(geoperu)
+library(tidyverse)
+
+anta <- get_geo_peru("anta",
+                     level = "prov",
+                     simplified = FALSE)
+mapview::mapview(anta, legend = FALSE, color = "transparent")
 
 ```
 
