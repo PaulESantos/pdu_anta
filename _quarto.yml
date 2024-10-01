@@ -13,8 +13,6 @@ website:
     logo: images/pdu.png
     href: https://openscapes.org
     right:
-    # - text: "Home"
-    #   href: index.html
     - text: "Zonificación"                      
       href: zonificacion.qmd
     
@@ -26,3 +24,5 @@ format:
     toc: true
     toc-title: Contenido
     toc-location: left
+execute:
+  freeze: auto

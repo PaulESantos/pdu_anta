@@ -58,3 +58,7 @@ mapview::mapview(anta, legend = FALSE, color = "transparent")
 
 ```
 
+# Documentos descargables:
+
+1. [Mapa de Zonificacion](https://drive.google.com/drive/u/0/my-drive)
+{{< downloadthis shp/MD-11 Espacios con afectaciones normativas PDM.pdf dname="Zonificaion.pdf" label="Mapa zonificacion" icon="cloud-arrow-down-fill" type="info" >}}
